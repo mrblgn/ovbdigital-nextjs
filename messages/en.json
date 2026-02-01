@@ -1,6 +1,28 @@
 {
-  "HomePage": {
-    "title": "Home Page",
-    "welcome": "Welcome"
+  "header": {
+    "welcome": "Welcome",
+    "about": "About",
+    "fetch-data": "Data Fetching"
+  },
+  "index": {
+    "welcome": "Welcome",
+    "this-page": "This page is",
+    "localized": "Localized",
+    "change-lang": "Change language",
+    "rendered": "Rendered to HTML",
+    "interactive": "Interactive",
+    "counter": "Counter",
+    "happy-clients": "Happy Clients",
+    "solutions": "Solutions Found",
+    "websites": "Websites Published",
+    "mobile-apps": "Mobile Apps Deployed"
+  },
+  "about": {
+    "hello": "Hello",
+    "another": "Another page"
+  },
+  "portfolio": {
+    "header": "Portfolio",
+    "description": "Portfolio page"
   }
 }

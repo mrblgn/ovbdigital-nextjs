@@ -1,0 +1,22 @@
+.slide1,
+.slide2 {
+  background-position: center center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.slide1 {
+  background-image: url("../assets/images/slider-01.jpg");
+}
+
+.slide2 {
+  background-image: url("../assets/images/slider-02.jpg");
+}
+
+.after::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid red;
+  width: 2rem;
+  top: 50%;
+  left: 1rem;
+}

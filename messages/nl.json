@@ -1,6 +1,28 @@
 {
-  "HomePage": {
-    "title": "Homepagina",
-    "welcome": "Welkom"
+  "header": {
+    "welcome": "Welkom",
+    "about": "Over ons",
+    "fetch-data": "Ophalen Van Data"
+  },
+  "index": {
+    "welcome": "Welkom",
+    "this-page": "Dit pagina is",
+    "localized": "Gelokaliseerd",
+    "change-lang": "Taal wijzigen",
+    "rendered": "Naar HTML gerenderd",
+    "interactive": "Interactieve",
+    "counter": "Teller",
+    "happy-clients": "Tevreden Klanten",
+    "solutions": "Oplossingen Gevonden",
+    "websites": "Gepubliceerde Websites",
+    "mobile-apps": "Mobiele Apps Ontwikkeld"
+  },
+  "about": {
+    "hello": "Hallo",
+    "another": "Andere pagina"
+  },
+  "portfolio": {
+    "header": "Portfolio",
+    "description": "Portfolio page"
   }
 }

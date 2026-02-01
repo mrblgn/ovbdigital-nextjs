@@ -1,8 +1,11 @@
+@import "./page-transition-loading-animation.css";
 @import "tailwindcss";
 
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --primary: #77a5ff;
+  --secondary: #bd34fe;
 }
 
 @theme inline {

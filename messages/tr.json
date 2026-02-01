@@ -1,6 +1,28 @@
 {
-  "HomePage": {
-    "title": "Ana Sayfa",
-    "welcome": "Hoş Geldiniz"
+  "header": {
+    "welcome": "Hosgeldiniz",
+    "about": "Hakkimizda",
+    "fetch-data": "Data Cekmek"
+  },
+  "index": {
+    "welcome": "Hosgeldiniz",
+    "this-page": "Bu sayfa",
+    "localized": "Yerelleştirilmiş",
+    "change-lang": "Dili degistir",
+    "rendered": "HTML'ye dönüştürüldü",
+    "interactive": "İnteraktif",
+    "counter": "Sayaç",
+    "happy-clients": "Mutlu Müşteri",
+    "solutions": "Çözüm Sunuldu",
+    "websites": "Web Sitesi Yayınlandı",
+    "mobile-apps": "Mobil Uygulama Yayınlandı"
+  },
+  "about": {
+    "hello": "Merhaba",
+    "another": "Diger sayfa"
+  },
+  "portfolio": {
+    "header": "Portfolyo",
+    "description": "Portfolyo sayfasi"
   }
 }
