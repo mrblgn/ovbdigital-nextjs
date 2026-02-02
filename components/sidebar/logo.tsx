@@ -1,11 +1,11 @@
-import Link from "next/link";
-import logoUrl from "assets/svgs/logo.svg";
+import { Link } from "@/i18n/routing";
+import logoUrl from "@/assets/svgs/logo.svg";
 
 export function Logo() {
   return (
     <div className="w-[5.625rem] h-[5.625rem] flex justify-center items-center">
       <Link href="/">
-        <img src={logoUrl} height={64} width={64} alt="logo" />
+        <img src={logoUrl.src} height={64} width={64} alt="logo" />
       </Link>
     </div>
   );

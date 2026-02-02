@@ -1,3 +1,5 @@
+"use client";
+
 import { useState } from "react";
 import { Logo } from "./logo";
 import MenuIcon from "./menu-icon";

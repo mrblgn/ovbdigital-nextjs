@@ -1,4 +1,4 @@
-import Link from "next/link";
+import { Link } from "@/i18n/routing";
 import AboutImg1 from "@/assets/images/image-1.jpg";
 import AboutImg2 from "@/assets/images/image-2.jpg";
 
