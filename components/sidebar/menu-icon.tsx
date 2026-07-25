@@ -12,6 +12,7 @@ const MenuIcon: React.FC<IMenuButton> = ({ onClick, isOpen }) => (
       aria-label="Display the menu"
       className={styles.menu}
       checked={isOpen}
+      readOnly
     />
   </div>
 );
