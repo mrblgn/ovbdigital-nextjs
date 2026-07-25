@@ -1,17 +1,17 @@
 import type { Metadata } from "next";
-import { NextIntlClientProvider } from "next-intl";
-import { Montserrat, Roboto } from "next/font/google";
+import {NextIntlClientProvider} from 'next-intl';
+import { Geist, Geist_Mono } from "next/font/google";
+import { Sidebar } from "@/components/sidebar";
 import { Content } from "@/components/common/content";
 import "@/styles/globals.css";
-import Header from "@/components/common/header";
 
-const montserrat = Montserrat({
-  variable: "--font-montserrat",
+const geistSans = Geist({
+  variable: "--font-geist-sans",
   subsets: ["latin"],
 });
 
-const roboto = Roboto({
-  variable: "--font-roboto",
+const geistMono = Geist_Mono({
+  variable: "--font-geist-mono",
   subsets: ["latin"],
 });
 
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params,
+  params
 }: Readonly<{
   children: React.ReactNode;
   params: Promise<{ locale: string }>;
@@ -30,12 +30,11 @@ export default async function RootLayout({
   const { locale } = await params;
   return (
     <html lang={locale}>
-      <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      </head>
-      <body className={`${montserrat.variable} ${roboto.variable} antialiased`}>
+      <body
+        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+      >
         <NextIntlClientProvider locale={locale}>
-          <Header />
+          <Sidebar />
           <Content>{children}</Content>
         </NextIntlClientProvider>
       </body>

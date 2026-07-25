@@ -1,5 +1,5 @@
 import { useTranslations } from "next-intl";
-import InfoCard from "./info-card";
+import InfoCard from "../info-card";
 
 const CARDS = [
   { limit: 150, title: "happy-clients" },
