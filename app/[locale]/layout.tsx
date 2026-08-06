@@ -45,7 +45,7 @@ export default async function RootLayout({
       </head>
       <body className={`${montserrat.variable} ${roboto.variable} antialiased`}>
         <NextIntlClientProvider locale={locale}>
-          <Header />
+          <Header locale={locale} />
           <Content>{children}</Content>
         </NextIntlClientProvider>
       </body>
