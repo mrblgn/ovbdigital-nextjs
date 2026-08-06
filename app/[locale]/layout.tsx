@@ -2,8 +2,13 @@ import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { Montserrat, Roboto } from "next/font/google";
 import { Content } from "@/components/common/content";
-import "@/styles/globals.css";
 import Header from "@/components/common/header";
+import { locales } from "@/i18n/routing";
+import "@/styles/globals.css";
+
+// TODO: Cache Components adoption. Refactor this route so this opt-out can be removed.
+// See: https://nextjs.org/docs/app/guides/migrating-to-cache-components
+export const instant = false;
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -19,6 +24,11 @@ export const metadata: Metadata = {
   title: "OvB Digital",
   description: "Digital solutions for your business.",
 };
+
+export function generateStaticParams() {
+  // Return an array of objects where the key matches the folder name
+  return locales.map((locale) => ({ locale }));
+}
 
 export default async function RootLayout({
   children,
