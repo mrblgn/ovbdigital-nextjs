@@ -3,21 +3,23 @@
 import { useEffect, useState } from "react";
 import Logo from "@/assets/svgs/logo-svg";
 import {Link} from "@/i18n/routing";
+import { useTranslations } from "next-intl";
 
 const LINKS = [
-  { text: "Home", link: "/" },
-  { text: "About Us", link: "/about" },
-  { text: "Services", link: "/services" },
-  // { text: "Portfolio", link: "/protfolio" },
-  // { text: "Technologies", link: "/technologies" },
-  // { text: "Process", link: "/process" },
-  // { text: "Blog", link: "/blog" },
-  // { text: "Careers", link: "/careers" },
-  { text: "FAQ", link: "/faq" },
-  { text: "Contact", link: "/contact" },
+  { text: "home", link: "/" },
+  { text: "about", link: "/about" },
+  { text: "services", link: "/services" },
+  // { text: "portfolio", link: "/protfolio" },
+  // { text: "technologies", link: "/technologies" },
+  // { text: "process", link: "/process" },
+  // { text: "blog", link: "/blog" },
+  // { text: "careers", link: "/careers" },
+  { text: "faq", link: "/faq" },
+  { text: "contact", link: "/contact" },
 ];
 const Header = () => {
   const [headerClass, setHeaderClass] = useState("absolute");
+    const t = useTranslations("header");
   useEffect(() => {
     window.addEventListener("scroll", () => {
       setHeaderClass(window.scrollY > 82 ? "sticky bg-black/40" : "absolute");
@@ -32,7 +34,7 @@ const Header = () => {
         <ul className="flex text-white uppercase text-sm font-semibold space-x-4 hover:cursor-pointer">
           {LINKS.map(({text, link}) => (
 
-          <li key={text}><Link href={link}>{text}</Link></li>
+          <li key={text}><Link href={link}>{t(text)}</Link></li>
           ))}
         </ul>
       </nav>

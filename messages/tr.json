@@ -1,8 +1,15 @@
 {
   "header": {
-    "welcome": "Hosgeldiniz",
-    "about": "Hakkimizda",
-    "fetch-data": "Data Cekmek"
+    "home": "Ana Sayfa",
+    "about": "Hakkımızda",
+    "services": "Hizmetler",
+    "portfolio": "Portföy",
+    "technologies": "Teknolojiler",
+    "process": "Süreç",
+    "blog": "Blog",
+    "careers": "Kariyer",
+    "faq": "SSS",
+    "contact": "İletişim"
   },
   "hero": {
     "build-software": "Yazılım Geliştiriyoruz \nİşletmelerin Büyümesini Destekliyoruz",

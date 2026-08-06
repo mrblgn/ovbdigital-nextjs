@@ -1,8 +1,15 @@
 {
   "header": {
-    "welcome": "Welkom",
-    "about": "Over ons",
-    "fetch-data": "Ophalen Van Data"
+    "home": "Home",
+    "about": "Over Ons",
+    "services": "Diensten",
+    "portfolio": "Portfolio",
+    "technologies": "Technologieën",
+    "process": "Werkwijze",
+    "blog": "Blog",
+    "careers": "Vacatures",
+    "faq": "Veelgestelde Vragen",
+    "contact": "Contact"
   },
   "hero": {
     "build-software": "Wij ontwikkelen software \nZorgt voor bedrijfsgroei",

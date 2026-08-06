@@ -1,8 +1,15 @@
 {
   "header": {
-    "welcome": "Welcome",
-    "about": "About",
-    "fetch-data": "Data Fetching"
+    "home": "Home",
+    "about": "About Us",
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "technologies": "Technologies",
+    "process": "Process",
+    "blog": "Blog",
+    "careers": "Careers",
+    "faq": "FAQ",
+    "contact": "Contact"
   },
   "hero": {
     "build-software": "We Build Software \nDrives Business Growth",
