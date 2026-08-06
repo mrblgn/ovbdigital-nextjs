@@ -4,6 +4,12 @@
     "about": "Over ons",
     "fetch-data": "Ophalen Van Data"
   },
+  "hero": {
+    "build-software": "Wij ontwikkelen software \nZorgt voor bedrijfsgroei",
+    "design-develop": "Wij ontwerpen en ontwikkelen moderne webapplicaties, mobiele apps en maatwerksoftware die bedrijven helpen te innoveren, te automatiseren en op te schalen. Of u nu een start-up lanceert, interne systemen moderniseert of een nieuw digitaal product ontwikkelt: wij zetten uw ideeën om in betrouwbare, hoogwaardige oplossingen.",
+    "start-project": "Begin met Je Project",
+    "view-work": "Bekijk Ons Werk"
+  },
   "index": {
     "welcome": "Welkom",
     "this-page": "Dit pagina is",

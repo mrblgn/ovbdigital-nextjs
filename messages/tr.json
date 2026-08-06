@@ -4,6 +4,12 @@
     "about": "Hakkimizda",
     "fetch-data": "Data Cekmek"
   },
+  "hero": {
+    "build-software": "Yazılım Geliştiriyoruz \nİşletmelerin Büyümesini Destekliyoruz",
+    "design-develop": "İşletmelerin yenilik yapmasına, süreçlerini otomatikleştirmesine ve ölçeklendirmesine yardımcı olan modern web uygulamaları, mobil uygulamalar ve özel yazılımlar tasarlıyor ve geliştiriyoruz. İster bir girişim kuruyor, ister şirket içi sistemlerinizi modernize ediyor, ister yeni bir dijital ürün yaratıyor olun, fikirlerinizi güvenilir ve yüksek performanslı çözümlere dönüştürüyoruz.",
+    "start-project": "Projenizi Başlatın",
+    "view-work": "Çalışmalarımızı İnceleyin"
+  },
   "index": {
     "welcome": "Hosgeldiniz",
     "this-page": "Bu sayfa",

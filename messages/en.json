@@ -4,6 +4,12 @@
     "about": "About",
     "fetch-data": "Data Fetching"
   },
+  "hero": {
+    "build-software": "We Build Software \nDrives Business Growth",
+    "design-develop": "We design and develop modern web applications, mobile apps, and custom software that help businesses innovate, automate, and scale. Whether you're launching a startup, modernizing internal systems, or creating a new digital product, we transform your ideas into reliable, high-performing solutions.",
+    "start-project": "Start Your Project",
+    "view-work": "View Our Work"
+  },
   "index": {
     "welcome": "Welcome",
     "this-page": "This page is",
