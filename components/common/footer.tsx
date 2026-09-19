@@ -1,10 +1,10 @@
-"use client";
+"use client"
 
 import { useTranslations } from "next-intl";
-import Logo from "@/assets/svgs/logo-svg";
 import { BUSINESS_NAME } from "@/constants";
+import Logo from "@/assets/svgs/logo-svg";
 
-export default function Footer() {
+export default function Footer({currentYear}: {currentYear: number}) {
   const t = useTranslations("footer");
 
   const scrollToTop = () => {
@@ -19,7 +19,7 @@ export default function Footer() {
         </div>
 
         <p className="text-xs font-mono text-center md:text-left">
-          {`© ${new Date().getFullYear()} ${BUSINESS_NAME}. ${t("copyright")}`}
+          {`© ${currentYear} ${BUSINESS_NAME}. ${t("copyright")}`}
         </p>
 
         <button

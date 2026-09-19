@@ -52,7 +52,7 @@ export default function ContactSection() {
             {/* Email */}
             <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-full bg-[#ff2e5f]/10 flex items-center justify-center text-[#ff2e5f] shrink-0 mt-1">
-                ✉️
+                📮
               </div>
               <div>
                 <h4 className="text-xs uppercase tracking-widest text-gray-400 font-bold font-mono">

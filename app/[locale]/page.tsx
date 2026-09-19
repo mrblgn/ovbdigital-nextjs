@@ -9,7 +9,8 @@ import StudioExperience from "@/components/home/studio-experience";
 import TestimonialsSection from "@/components/home/testimonials";
 import ClientLogos from "@/components/home/client-logos";
 import ContactSection from "@/components/home/contact";
-import Footer from "@/components/home/footer";
+
+export const instant = false;
 
 export default function Home() {
   return (
@@ -25,7 +26,6 @@ export default function Home() {
       <TestimonialsSection />
       <ClientLogos />
       <ContactSection />
-      <Footer />
     </main>
   );
 }
