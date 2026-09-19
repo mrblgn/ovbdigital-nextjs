@@ -12,30 +12,100 @@
     "contact": "İletişim"
   },
   "hero": {
-    "build-software": "Yazılım Geliştiriyoruz \nİşletmelerin Büyümesini Destekliyoruz",
-    "design-develop": "İşletmelerin yenilik yapmasına, süreçlerini otomatikleştirmesine ve ölçeklendirmesine yardımcı olan modern web uygulamaları, mobil uygulamalar ve özel yazılımlar tasarlıyor ve geliştiriyoruz. İster bir girişim kuruyor, ister şirket içi sistemlerinizi modernize ediyor, ister yeni bir dijital ürün yaratıyor olun, fikirlerinizi güvenilir ve yüksek performanslı çözümlere dönüştürüyoruz.",
-    "start-project": "Projenizi Başlatın",
-    "view-work": "Çalışmalarımızı İnceleyin"
-  },
-  "index": {
-    "welcome": "Hosgeldiniz",
-    "this-page": "Bu sayfa",
-    "localized": "Yerelleştirilmiş",
-    "change-lang": "Dili degistir",
-    "rendered": "HTML'ye dönüştürüldü",
-    "interactive": "İnteraktif",
-    "counter": "Sayaç",
-    "happy-clients": "Mutlu Müşteri",
-    "solutions": "Çözüm Sunuldu",
-    "websites": "Web Sitesi Yayınlandı",
-    "mobile-apps": "Mobil Uygulama Yayınlandı"
+    "subtitle": "Dünya çapındaki markalar için yüksek etkili dijital ürünler, platformlar ve özel kurumsal yazılımlar geliştiriyoruz.",
+    "cta": "Projelerimizi Keşfedin",
+    "tag1": "01 - Tasarım",
+    "tag2": "02 - Yazılım",
+    "tag3": "03 - Büyüme"
   },
   "about": {
-    "hello": "Merhaba",
-    "another": "Diger sayfa"
+    "title": "Tasarımı, stratejiyi ve zanaatı harmanlıyoruz.",
+    "subtitle": "Yenilikçi şirketler için ölçeklenebilir web uygulamaları, modern mobil platformlar ve kurumsal yazılım çözümleri üreten kreatif bir yazılım stüdyosuyuz.",
+    "cta": "ÇALIŞMALARIMIZI İNCELEYİN"
+  },
+  "process": {
+    "step1Title": "Stratejik Keşif",
+    "step1Desc": "Hedefleri ve yol haritasını netleştirmek için kapsamlı pazar araştırması ve ürün mimarisi planlaması.",
+    "step2Title": "UI/UX Mimarisi",
+    "step2Desc": "Dönüşüm odaklı, kullanıcı merkezli arayüzler ve etkileşimli prototipler tasarımı.",
+    "step3Title": "Full-Stack Yazılım",
+    "step3Desc": "Next.js, TypeScript, mikroservisler ve bulut altyapıları ile temiz, ölçeklenebilir mühendislik.",
+    "step4Title": "Kalite & Yayın",
+    "step4Desc": "Kapsamlı otomatik testler, güvenlik denetimi, CI/CD süreçleri ve kesintisiz canlı desteği."
+  },
+  "stats": {
+    "projects": "350+",
+    "projectsLabel": "Tamamlanan Proje",
+    "clients": "1500+",
+    "clientsLabel": "Mutlu Müşteri",
+    "awards": "375+",
+    "awardsLabel": "Sektörel Ödül",
+    "rating": "98%+",
+    "ratingLabel": "Müşteri Memnuniyeti"
+  },
+  "featureBanner": {
+    "title": "Tasarımı, stratejiyi ve teknik mükemmelliği birleştiriyoruz.",
+    "subtitle": "Modern Web uygulamalarından bulut altyapılarına ve yapay zeka çözümlerine kadar, fikirleri büyümeyi hızlandıran yazılımlara dönüştürüyoruz.",
+    "cta": "YOLCULUĞUMUZA KATILIN"
+  },
+  "servicesOverview": {
+    "heading": "Yazılım geliştirme ve dijital tasarım alanındaki temel uzmanlıklarımız",
+    "item1": "Ürün Tasarımı",
+    "item2": "Full-Stack Yazılım",
+    "item3": "Bulut Sistemleri",
+    "item4": "Yapay Zeka"
   },
   "portfolio": {
-    "header": "Portfolyo",
-    "description": "Portfolyo sayfasi"
+    "badge": "YENİ PROJELER",
+    "title": "Hassasiyet ve modern mühendislikle üretildi",
+    "highlight1": "Modern Teknolojiler",
+    "highlight2": "Çevik Teslimat",
+    "highlight3": "7/24 Teknik Destek",
+    "project1": "SaaS Platform Tasarımı",
+    "project2": "Fintech Mobil Uygulaması",
+    "project3": "AI Analiz Paneli",
+    "project4": "E-Ticaret Sistemi",
+    "project5": "Kurumsal Kimlik Tasarımı",
+    "project6": "Bulut Altyapı Mimarisi",
+    "project7": "IoT Takip Uygulaması",
+    "project8": "Kurumsal Web Portalı"
+  },
+  "studioExperience": {
+    "title": "Mükemmel deneyimler tasarlayan dijital bir stüdyo.",
+    "subtitle": "Disiplinlerarası yazılım ekiplerimiz; tasarım odaklı düşünce, güçlü bulut mühendisliği ve otomatik testlerle zahmetsizce büyüyen sistemler kurar.",
+    "cta": "YETENEKLERİMİZİ İNCELEYİN",
+    "infographicsTitle": "Stüdyo Etkisi & Teknik Performans",
+    "stat1Title": "%99.9 Kesintisiz Çalışma",
+    "stat1Desc": "Kurumsal düzeyde stabilite & güvenlik",
+    "stat2Title": "3 Kat Hızlı",
+    "stat2Desc": "CI/CD ile hızlandırılmış canlıya alma",
+    "stat3Title": "%95+ Test Kapsamı",
+    "stat3Desc": "Kapsamlı test odaklı yazılım mimarisi"
+  },
+  "testimonials": {
+    "quote": "Midnight Studio, karmaşık eski yazılım altyapımızı inanılmaz derecede hızlı ve modern bir dijital platforma dönüştürdü. Tasarım detayları ve mühendislik disiplinleri harika.",
+    "author": "Alexander Vance",
+    "position": "Teknoloji Direktörü (CTO), Apex Group"
+  },
+  "clientLogos": {
+    "title": "DÜNYA ÇAPINDA LİDER MARKALARIN TERCİHİ"
+  },
+  "contact": {
+    "title": "Bizimle dilediğiniz kanaldan kolayca iletişime geçebilirsiniz.",
+    "addressTitle": "Merkez Ofis",
+    "address": "Keizersgracht 421, 1016 EK Amsterdam, Hollanda",
+    "phoneTitle": "Telefon",
+    "phone": "+31 (0) 20 555 0199",
+    "emailTitle": "E-posta",
+    "email": "hello@ovbdigital.com",
+    "formTitle": "BİZE MESAJ GÖNDERİN",
+    "formName": "Adınız",
+    "formEmail": "E-posta Adresiniz",
+    "formSubject": "Konu",
+    "formMessage": "Mesajınız",
+    "formSubmit": "MESAJI GÖNDER"
+  },
+  "footer": {
+    "copyright": "Tüm hakları saklıdır."
   }
 }

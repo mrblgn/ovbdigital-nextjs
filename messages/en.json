@@ -12,30 +12,100 @@
     "contact": "Contact"
   },
   "hero": {
-    "build-software": "We Build Software \nDrives Business Growth",
-    "design-develop": "We design and develop modern web applications, mobile apps, and custom software that help businesses innovate, automate, and scale. Whether you're launching a startup, modernizing internal systems, or creating a new digital product, we transform your ideas into reliable, high-performing solutions.",
-    "start-project": "Start Your Project",
-    "view-work": "View Our Work"
-  },
-  "index": {
-    "welcome": "Welcome",
-    "this-page": "This page is",
-    "localized": "Localized",
-    "change-lang": "Change language",
-    "rendered": "Rendered to HTML",
-    "interactive": "Interactive",
-    "counter": "Counter",
-    "happy-clients": "Happy Clients",
-    "solutions": "Solutions Found",
-    "websites": "Websites Published",
-    "mobile-apps": "Mobile Apps Deployed"
+    "subtitle": "We build high-impact digital products, platforms and custom enterprise software for world-class brands.",
+    "cta": "Explore Our Work",
+    "tag1": "01 - Design",
+    "tag2": "02 - Software",
+    "tag3": "03 - Growth"
   },
   "about": {
-    "hello": "Hello",
-    "another": "Another page"
+    "title": "We combine design, thinking and craft.",
+    "subtitle": "We are a creative software studio delivering scalable web applications, modern mobile platforms, and enterprise solutions for ambitious companies.",
+    "cta": "VIEW OUR WORK"
+  },
+  "process": {
+    "step1Title": "Strategic Discovery",
+    "step1Desc": "In-depth research and product architecture alignment to outline roadmap and goals.",
+    "step2Title": "UI/UX Architecture",
+    "step2Desc": "Crafting interactive prototypes and user-centric interfaces built for conversions.",
+    "step3Title": "Full-Stack Development",
+    "step3Desc": "Clean, scalable engineering with Next.js, TypeScript, microservices, and cloud systems.",
+    "step4Title": "Quality & Launch",
+    "step4Desc": "Rigorous automated testing, security audit, CI/CD pipeline, and continuous support."
+  },
+  "stats": {
+    "projects": "350+",
+    "projectsLabel": "Projects Delivered",
+    "clients": "1500+",
+    "clientsLabel": "Happy Clients",
+    "awards": "375+",
+    "awardsLabel": "Industry Recognition",
+    "rating": "98%+",
+    "ratingLabel": "Client Satisfaction"
+  },
+  "featureBanner": {
+    "title": "We combine design, thinking and technical excellence.",
+    "subtitle": "From modern Web Apps to cloud infrastructures and AI solutions, we transform ideas into scalable software systems that accelerate revenue growth.",
+    "cta": "JOIN OUR JOURNEY"
+  },
+  "servicesOverview": {
+    "heading": "Our core software development & digital design capabilities",
+    "item1": "Product Design",
+    "item2": "Full-Stack Dev",
+    "item3": "Cloud Systems",
+    "item4": "AI Solutions"
   },
   "portfolio": {
-    "header": "Portfolio",
-    "description": "Portfolio page"
+    "badge": "NEW PROJECTS",
+    "title": "Crafted with precision & modern engineering",
+    "highlight1": "Modern Tech Stack",
+    "highlight2": "Agile Delivery",
+    "highlight3": "24/7 Support",
+    "project1": "SaaS Platform Design",
+    "project2": "Fintech Mobile App",
+    "project3": "AI Analytics Dashboard",
+    "project4": "E-Commerce System",
+    "project5": "Brand Identity System",
+    "project6": "Cloud Infrastructure",
+    "project7": "IoT Monitoring App",
+    "project8": "Corporate Web Portal"
+  },
+  "studioExperience": {
+    "title": "A digital studio crafting beautiful experiences.",
+    "subtitle": "Our cross-functional software teams integrate design thinking, robust cloud engineering, and automated testing to build systems that scale effortlessly.",
+    "cta": "EXPLORE CAPABILITIES",
+    "infographicsTitle": "Studio Impact & Technical Performance",
+    "stat1Title": "99.9% Uptime",
+    "stat1Desc": "Enterprise grade stability & security",
+    "stat2Title": "3x Faster",
+    "stat2Desc": "Accelerated release cycles via CI/CD",
+    "stat3Title": "95%+ Coverage",
+    "stat3Desc": "Comprehensive test-driven engineering"
+  },
+  "testimonials": {
+    "quote": "OvB Digital transformed our complex legacy software into an ultra-fast, modern digital platform. Their attention to design detail and engineering rigor is second to none.",
+    "author": "Alexander Vance",
+    "position": "Chief Technology Officer, Apex Group"
+  },
+  "clientLogos": {
+    "title": "TRUSTED BY LEADING GLOBAL BRANDS"
+  },
+  "contact": {
+    "title": "Feel free to get in touch with us any convenient way.",
+    "addressTitle": "Headquarters",
+    "address": "Keizersgracht 421, 1016 EK Amsterdam, Netherlands",
+    "phoneTitle": "Direct Call",
+    "phone": "+31 (0) 20 555 0199",
+    "emailTitle": "Send Email",
+    "email": "hello@ovbdigital.com",
+    "formTitle": "LEAVE US A MESSAGE",
+    "formName": "Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "formSubmit": "SEND MESSAGE"
+  },
+  "footer": {
+    "copyright": "All Rights Reserved."
   }
 }

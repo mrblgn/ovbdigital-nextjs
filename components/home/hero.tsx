@@ -1,38 +1,55 @@
-import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
+import { BUSINESS_NAME } from "@/constants";
 
-const Hero = () => {
+export default function HeroSection() {
   const t = useTranslations("hero");
+
   return (
-    <section className="font-montserrat">
-      <h1 className="hidden">OvB Digital</h1>
-      <div className="flex items-center justify-center w-full h-screen text-white bg-[url(@/assets/images/o-hero-4.jpg)] bg-no-repeat bg-cover bg-center">
-        <div className="absolute left-0 top-0 right-0 bottom-0 z-0 bg-black/35" />
-        <div className="flex flex-col max-w-3/5 items-center justify-center">
-          <h2 className="text-6xl leading-16 text-center mb-8 font-semibold whitespace-pre-line z-10">
-            {t("build-software")}
-          </h2>
-          <p className="text-center text-md leading-6 font-medium mb-8 z-10">
-            {t("design-develop")}
+    <section className="relative min-h-[90vh] bg-[#141414] text-white flex flex-col justify-between px-6 md:px-16 pt-32 pb-16 overflow-hidden">
+      {/* Background ambient subtle glow */}
+      <div className="absolute top-1/4 left-1/4 w-100 h-100 bg-[#ff2e5f]/10 rounded-full blur-3xl pointer-events-none" />
+
+      <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center z-10 my-auto">
+        {/* Main Title & Subtitle */}
+        <div className="lg:col-span-8 space-y-6">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-none text-white font-montserrat">
+            {BUSINESS_NAME}
+          </h1>
+          <p className="text-gray-400 text-lg md:text-xl max-w-2xl font-light leading-relaxed">
+            {t("subtitle")}
           </p>
-          <div className="flex space-x-8 z-10">
-            <Link
-              href="/contact"
-              className="text-md font-medium hover:bg-white/40 border border-white rounded px-3 py-2"
+          <div className="pt-4">
+            <a
+              href="#portfolio"
+              className="inline-flex items-center gap-3 bg-[#ff2e5f] hover:bg-[#e6204e] text-white text-xs uppercase tracking-widest font-bold px-8 py-4 rounded-full transition-all duration-300 shadow-lg shadow-[#ff2e5f]/25 hover:shadow-[#ff2e5f]/40 hover:scale-105"
             >
-              {t("start-project")}
-            </Link>
-            <Link
-              href="/services"
-              className="text-md font-medium hover:bg-white/40 border border-white rounded px-3 py-2"
-            >
-              {t("view-work")}
-            </Link>
+              {t("cta")}
+              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        {/* Right side numbered tags matching Midnight Studio design */}
+        <div className="lg:col-span-4 flex lg:flex-col justify-end gap-6 text-gray-500 font-mono text-xs uppercase tracking-wider">
+          <div className="border-l border-white/10 pl-4 py-1 hover:text-white transition-colors">
+            <span className="text-[#ff2e5f] font-bold mr-2">01</span> {t("tag1")}
+          </div>
+          <div className="border-l border-white/10 pl-4 py-1 hover:text-white transition-colors">
+            <span className="text-[#ff2e5f] font-bold mr-2">02</span> {t("tag2")}
+          </div>
+          <div className="border-l border-white/10 pl-4 py-1 hover:text-white transition-colors">
+            <span className="text-[#ff2e5f] font-bold mr-2">03</span> {t("tag3")}
           </div>
         </div>
       </div>
+
+      {/* Bottom Scroll Indicator */}
+      <div className="max-w-7xl mx-auto w-full pt-8 border-t border-white/10 flex justify-between items-center text-xs text-gray-500">
+        <span>SCROLL DOWN</span>
+        <div className="w-12 h-[1px] bg-white/20 animate-pulse" />
+      </div>
     </section>
   );
-};
-
-export default Hero;
+}

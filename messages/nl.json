@@ -12,30 +12,100 @@
     "contact": "Contact"
   },
   "hero": {
-    "build-software": "Wij ontwikkelen software \nZorgt voor bedrijfsgroei",
-    "design-develop": "Wij ontwerpen en ontwikkelen moderne webapplicaties, mobiele apps en maatwerksoftware die bedrijven helpen te innoveren, te automatiseren en op te schalen. Of u nu een start-up lanceert, interne systemen moderniseert of een nieuw digitaal product ontwikkelt: wij zetten uw ideeën om in betrouwbare, hoogwaardige oplossingen.",
-    "start-project": "Begin met Je Project",
-    "view-work": "Bekijk Ons Werk"
-  },
-  "index": {
-    "welcome": "Welkom",
-    "this-page": "Dit pagina is",
-    "localized": "Gelokaliseerd",
-    "change-lang": "Taal wijzigen",
-    "rendered": "Naar HTML gerenderd",
-    "interactive": "Interactieve",
-    "counter": "Teller",
-    "happy-clients": "Tevreden Klanten",
-    "solutions": "Oplossingen Gevonden",
-    "websites": "Gepubliceerde Websites",
-    "mobile-apps": "Mobiele Apps Ontwikkeld"
+    "subtitle": "Wij bouwen hoogwaardige digitale producten, platforms en maatwerk software voor vooraanstaande merken.",
+    "cta": "Bekijk Ons Werk",
+    "tag1": "01 - Ontwerp",
+    "tag2": "02 - Software",
+    "tag3": "03 - Groei"
   },
   "about": {
-    "hello": "Hallo",
-    "another": "Andere pagina"
+    "title": "Wij combineren design, strategie en vakmanschap.",
+    "subtitle": "Wij zijn een creatieve softwarestudio die schaalbare webapplicaties, moderne mobiele platforms en enterprise oplossingen bouwt voor ambitieuze organisaties.",
+    "cta": "BEKIJK ONS WERK"
+  },
+  "process": {
+    "step1Title": "Strategische Analyse",
+    "step1Desc": "Grondig onderzoek en productarchitectuur om doelstellingen en de roadmap helder vast te leggen.",
+    "step2Title": "UI/UX Architectuur",
+    "step2Desc": "Interactieve ontwerpen en gebruikersgerichte interfaces gericht op conversie en beleving.",
+    "step3Title": "Full-Stack Software",
+    "step3Desc": "Schone, schaalbare engineering met Next.js, TypeScript, microservices en cloud-systemen.",
+    "step4Title": "Kwaliteit & Oplevering",
+    "step4Desc": "Strenge geautomatiseerde tests, beveiligingsaudits, CI/CD pijplijnen en continue ondersteuning."
+  },
+  "stats": {
+    "projects": "350+",
+    "projectsLabel": "Opgeleverde Projecten",
+    "clients": "1500+",
+    "clientsLabel": "Tevreden Klanten",
+    "awards": "375+",
+    "awardsLabel": "Erkenningen & Awards",
+    "rating": "98%+",
+    "ratingLabel": "Klanttevredenheid"
+  },
+  "featureBanner": {
+    "title": "Wij combineren design, strategie en technische uitmuntendheid.",
+    "subtitle": "Van moderne webapps tot cloudinfrastructuur en AI-oplossingen: wij zetten ideeën om in schaalbare softwaresystemen die groei versnellen.",
+    "cta": "ONTDEK ONS VERHAAL"
+  },
+  "servicesOverview": {
+    "heading": "Onze kernexpertises in softwareontwikkeling & digitaal design",
+    "item1": "Product Design",
+    "item2": "Full-Stack Dev",
+    "item3": "Cloud Systems",
+    "item4": "AI Solutions"
   },
   "portfolio": {
-    "header": "Portfolio",
-    "description": "Portfolio page"
+    "badge": "NIEUWE PROJECTEN",
+    "title": "Gebouwd met precisie & moderne technologie",
+    "highlight1": "Moderne Tech Stack",
+    "highlight2": "Agile Oplevering",
+    "highlight3": "24/7 Ondersteuning",
+    "project1": "SaaS Platform Design",
+    "project2": "Fintech Mobiele App",
+    "project3": "AI Analytics Dashboard",
+    "project4": "E-Commerce Systeem",
+    "project5": "Merkidentiteit Design",
+    "project6": "Cloud Infrastructuur",
+    "project7": "IoT Monitoring App",
+    "project8": "Enterprise Webportal"
+  },
+  "studioExperience": {
+    "title": "Een digitale studio die prachtige ervaringen creëert.",
+    "subtitle": "Onze multidisciplinaire softwareteams combineren design thinking, robuuste cloud engineering en geautomatiseerde testen om zorgeloos schaalbare systemen te bouwen.",
+    "cta": "BEKIJK MOGELIJKHEDEN",
+    "infographicsTitle": "Studio Impact & Technische Prestaties",
+    "stat1Title": "99.9% Uptime",
+    "stat1Desc": "Enterprise stabiliteit & beveiliging",
+    "stat2Title": "3x Sneller",
+    "stat2Desc": "Versnelde opleveringscycli via CI/CD",
+    "stat3Title": "95%+ Dekking",
+    "stat3Desc": "Uitgebreide test-gestuurde software-ontwikkeling"
+  },
+  "testimonials": {
+    "quote": "Midnight Studio heeft onze complexe legacy software getransformeerd tot een razendsnel, modern digitaal platform. Hun oog voor detail en technische expertise is ongeëvenaard.",
+    "author": "Alexander Vance",
+    "position": "Chief Technology Officer, Apex Group"
+  },
+  "clientLogos": {
+    "title": "VERTROUWD DOOR VOORAANSTAANDE MERKEN"
+  },
+  "contact": {
+    "title": "Neem gerust contact met ons op via een van de onderstaande manieren.",
+    "addressTitle": "Hoofdkantoor",
+    "address": "Keizersgracht 421, 1016 EK Amsterdam, Nederland",
+    "phoneTitle": "Telefoon",
+    "phone": "+31 (0) 20 555 0199",
+    "emailTitle": "E-mail",
+    "email": "hello@ovbdigital.com",
+    "formTitle": "LAAT EEN BERICHT ACHTER",
+    "formName": "Naam",
+    "formEmail": "E-mailadres",
+    "formSubject": "Onderwerp",
+    "formMessage": "Bericht",
+    "formSubmit": "VERSTUUR BERICHT"
+  },
+  "footer": {
+    "copyright": "Alle rechten voorbehouden."
   }
 }
