@@ -5,9 +5,10 @@ export default function HeroSection() {
   const t = useTranslations("hero");
 
   return (
-    <section className="relative min-h-[90vh] bg-[#141414] text-white flex flex-col justify-between px-6 md:px-16 pt-32 pb-16 overflow-hidden">
+    <section className="relative min-h-[90vh] bg-[url(https://images.unsplash.com/photo-1643267514395-b36b3f7e8281?auto=format&fit=crop&w=2160&q=80)] bg-cover bg-center text-white flex flex-col justify-between px-6 md:px-16 pt-32 pb-16 overflow-hidden">
       {/* Background ambient subtle glow */}
       <div className="absolute top-1/4 left-1/4 w-100 h-100 bg-[#ff2e5f]/10 rounded-full blur-3xl pointer-events-none" />
+      <div className="absolute inset-0 bg-linear-to-b from-[#141414]/90 via-[#141414]/50 to-[#141414]" />
 
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center z-10 my-auto">
         {/* Main Title & Subtitle */}
@@ -15,7 +16,7 @@ export default function HeroSection() {
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-none text-white font-montserrat">
             {BUSINESS_NAME}
           </h1>
-          <p className="text-gray-400 text-lg md:text-xl max-w-2xl font-light leading-relaxed">
+          <p className="text-gray-200 text-lg md:text-xl max-w-2xl font-light leading-relaxed">
             {t("subtitle")}
           </p>
           <div className="pt-4">
