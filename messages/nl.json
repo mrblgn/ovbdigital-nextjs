@@ -50,10 +50,18 @@
   },
   "servicesOverview": {
     "heading": "Onze kernexpertises in softwareontwikkeling & digitaal design",
-    "item1": "Product Design",
-    "item2": "Full-Stack Dev",
-    "item3": "Cloud Systems",
-    "item4": "AI Solutions"
+    "item1": "Bedrijfsapplicaties",
+    "item2": "Klantenportalen",
+    "item3": "SaaS-platformen",
+    "item4": "Enterprise-systemen",
+    "item5": "E-commerce oplossingen",
+    "item6": "Interne bedrijfstools",
+    "item7": "Cross-platform applicaties",
+    "item8": "Native mobiele apps",
+    "item9": "Consumentenapps",
+    "item10": "Mobiele dashboards",
+    "item11": "Connected device-applicaties",
+    "item12": "Cloud & Microservices"
   },
   "portfolio": {
     "badge": "NIEUWE PROJECTEN",

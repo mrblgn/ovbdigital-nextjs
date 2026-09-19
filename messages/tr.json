@@ -50,10 +50,18 @@
   },
   "servicesOverview": {
     "heading": "Yazılım geliştirme ve dijital tasarım alanındaki temel uzmanlıklarımız",
-    "item1": "Ürün Tasarımı",
-    "item2": "Full-Stack Yazılım",
-    "item3": "Bulut Sistemleri",
-    "item4": "Yapay Zeka"
+    "item1": "İş Uygulamaları",
+    "item2": "Müşteri Portalları",
+    "item3": "SaaS Platformları",
+    "item4": "Kurumsal Sistemler",
+    "item5": "E-Ticaret Çözümleri",
+    "item6": "Şirket İçi Araçlar",
+    "item7": "Çapraz Platform Uygulamalar",
+    "item8": "Yerel (Native) Mobil Uygulamalar",
+    "item9": "Tüketici Uygulamaları",
+    "item10": "Mobil Gösterge Panelleri",
+    "item11": "Bağlantılı Cihaz (IoT) Uygulamaları",
+    "item12": "Bulut & Mikroservis Çözümleri"
   },
   "portfolio": {
     "badge": "YENİ PROJELER",

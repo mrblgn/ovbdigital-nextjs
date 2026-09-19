@@ -50,10 +50,18 @@
   },
   "servicesOverview": {
     "heading": "Our core software development & digital design capabilities",
-    "item1": "Product Design",
-    "item2": "Full-Stack Dev",
-    "item3": "Cloud Systems",
-    "item4": "AI Solutions"
+    "item1": "Business applications",
+    "item2": "Customer portals",
+    "item3": "SaaS platforms",
+    "item4": "Enterprise systems",
+    "item5": "E-commerce solutions",
+    "item6": "Internal business tools",
+    "item7": "Cross-platform applications",
+    "item8": "Native mobile apps",
+    "item9": "Consumer apps",
+    "item10": "Mobile dashboards",
+    "item11": "Connected device applications",
+    "item12": "Cloud & Microservices"
   },
   "portfolio": {
     "badge": "NEW PROJECTS",
