@@ -32,7 +32,7 @@ export default function HeroSection() {
           </div>
         </div>
 
-        {/* Right side numbered tags matching Midnight Studio design */}
+        {/* Right side numbered tags matching the design */}
         <div className="lg:col-span-4 flex lg:flex-col justify-end gap-6 text-gray-200 font-mono text-xs uppercase tracking-wider">
           <div className="border-l border-white/10 pl-4 py-1 hover:cursor-default hover:scale-105 hover:font-bold hover:text-[#ff2e5f] transition-colors">
             <span className="text-[#ff2e5f] font-bold mr-2">01</span> {t("tag1")}
