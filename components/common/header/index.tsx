@@ -59,7 +59,7 @@ const LangComponent: React.FC<{ locale: keyof typeof LOCALE_ICON }> = ({
               className="flex items-center space-x-2 py-1 uppercase hover:cursor-pointer"
             >
               <span>{_locale}</span>
-              {LOCALE_ICON[_locale]}
+              {LOCALE_ICON[_locale as unknown as keyof typeof LOCALE_ICON]}
             </button>
           ) : undefined,
         )}

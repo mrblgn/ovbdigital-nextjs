@@ -114,7 +114,7 @@ export default function ServicesOverview() {
           {services.map((item, idx) => (
             <div
               key={idx}
-              className="flex flex-col items-center text-center p-6 rounded-xl bg-gray-50 border border-gray-100 hover:border-[#ff2e5f]/40 hover:shadow-lg transition-all duration-300 group"
+              className="flex flex-col items-center text-center p-6 rounded-xl bg-gray-50 border border-gray-100 hover:border-[#ff2e5f]/40 hover:cursor-pointer hover:shadow-lg transition-all duration-300 group"
             >
               <div className="mb-4 p-3 rounded-full bg-[#ff2e5f]/10 group-hover:bg-[#ff2e5f]/20 transition-colors">
                 {item.icon}

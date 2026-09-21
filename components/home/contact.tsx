@@ -24,7 +24,7 @@ export default function ContactSection() {
 
           <div className="space-y-6 pt-4">
             {/* Address */}
-            <div className="flex items-start gap-4">
+            {/* <div className="flex items-start gap-4">
               <div className="w-10 h-10 rounded-full bg-[#ff2e5f]/10 flex items-center justify-center text-[#ff2e5f] shrink-0 mt-1">
                 📍
               </div>
@@ -34,7 +34,7 @@ export default function ContactSection() {
                 </h4>
                 <p className="text-sm text-gray-200 font-light">{t("address")}</p>
               </div>
-            </div>
+            </div> */}
 
             {/* Phone */}
             <div className="flex items-start gap-4">
