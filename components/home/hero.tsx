@@ -13,10 +13,10 @@ export default function HeroSection() {
       <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-12 gap-8 items-center z-10 my-auto">
         {/* Main Title & Subtitle */}
         <div className="lg:col-span-8 space-y-6">
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-none text-white font-montserrat">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold tracking-tight leading-none text-white font-montserrat hover:cursor-default">
             {BUSINESS_NAME}
           </h1>
-          <p className="text-gray-200 text-lg md:text-xl max-w-2xl font-light leading-relaxed">
+          <p className="text-gray-200 text-lg md:text-xl max-w-2xl font-light leading-relaxed hover:cursor-default">
             {t("subtitle")}
           </p>
           <div className="pt-4">
