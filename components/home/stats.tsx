@@ -8,7 +8,7 @@ export default function StatsBar() {
   const statItems = [
     { value: t("projects"), label: t("projectsLabel") },
     { value: t("clients"), label: t("clientsLabel") },
-    { value: t("awards"), label: t("awardsLabel") },
+    { value: t("experience"), label: t("experienceLabel") },
     { value: t("rating"), label: t("ratingLabel") },
   ];
 
